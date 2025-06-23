@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=📝 In Schreibmodus wechseln
+Exec=pkexec /home/pi/kiosk-tools/set-rw.sh
+Icon=system-run
+Terminal=true

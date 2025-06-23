@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=🔒 In Nur-Lesen-Modus wechseln
+Exec=pkexec /home/pi/kiosk-tools/set-ro.sh
+Icon=system-lock-screen
+Terminal=true
