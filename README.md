@@ -38,6 +38,7 @@ Es konfiguriert ein vollautomatisches Setup mit:
    sudo reboot
    ```
 4. Autodarts auf dem Raspberry Pi Installieren:
+
    HowTo ist hier zu finden:
    ```bash
    https://autodarts.diy/getting-started/installation/
