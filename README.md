@@ -1,19 +1,31 @@
-# Raspberry Pi Kiosk Setup
+# Autodarts Pi5 Kiosk
 
-Dieses Repository richtet sich an alle, die einen Raspberry Pi als abgesichertes Kiosk-System betreiben möchten. Es richtet automatisch ein:
+Dieses Projekt richtet sich an alle, die einen **Raspberry Pi 5** als abgesichertes **Kiosk-System** für Autodarts verwenden möchten.
 
-- Autostart von Chromium im Vollbildmodus
-- Anzeige einer beliebigen Webseite (Standard: https://play.autodarts.io/)
-- Aktivierung eines Read-Only-Systems per `overlayroot`
-- Umschaltung zwischen Read-Only und Schreibmodus per Desktop-Button
+Es konfiguriert ein vollautomatisches Setup mit:
 
-## 📦 Installation
+- ✅ Chromium im Vollbild-Modus
+- ✅ Automatischem Webseitenaufruf (`https://play.autodarts.io`)
+- ✅ Read-Only-Dateisystem (`overlayroot`)
+- ✅ Zwei Desktop-Buttons zum Umschalten zwischen Read-Only (🔒) und Schreibmodus (📝)
 
-1. Repository klonen oder ZIP herunterladen:
-```bash
-git clone https://github.com/DEIN-BENUTZERNAME/rpi-kiosk-setup.git
-cd rpi-kiosk-setup
-```
+---
+
+## ⚙️ Voraussetzungen
+
+- Raspberry Pi OS 64bit (mit Desktop, z. B. Bookworm)
+- Raspberry Pi 5 8GB
+- Internetverbindung
+- Maus, Tastatur oder SSH-Zugriff zur Einrichtung
+
+---
+
+## 🚀 Installation
+
+1. Repository klonen:
+   ```bash
+   git clone https://github.com/ReismannRS/Autodarts-Pi5-Kiosk.git
+   cd Autodarts-Pi5-Kiosk
 
 2. Installationsskript ausführen:
 ```bash
