@@ -28,15 +28,20 @@ Es konfiguriert ein vollautomatisches Setup mit:
    cd Autodarts-Pi5-Kiosk
 
 2. Installationsskript ausführen:
-```bash
-chmod +x kiosk-setup.sh
-./kiosk-setup.sh
-```
+   ```bash
+   chmod +x kiosk-setup.sh
+   ./kiosk-setup.sh
+   ```
 
 3. Raspberry Pi neu starten:
-```bash
-sudo reboot
-```
+   ```bash
+   sudo reboot
+   ```
+4. Autodarts auf dem Raspberry Pi Installieren:
+   ```bash
+   HowTo ist hier zu finden:
+   https://autodarts.diy/getting-started/installation/
+   ```
 
 ## 🔁 Umschalten zwischen RO ↔ RW
 
